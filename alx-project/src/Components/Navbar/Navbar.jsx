@@ -17,6 +17,11 @@ const Navbar = () => {
                 <li>Services</li>
                 <li>Marketing</li>
             </ul>
+            <div className="nav-login-cart">
+                <img src={cart_icon} alt="" />
+                <div className="nav-cart-count">0</div>
+
+            </div>
 
         </div>
     )
